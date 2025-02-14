@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.square{
+    background-color: aqua;
+    margin: 0;
+    padding: 0px;
+    height: calc(960px / 16);
+    width: calc(960px / 16);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 960px;
+    border-style: solid;
+    align-self: center;
+}
+
+.size {
+    height: 100px;
+    width: 200px;
+}
